@@ -1,0 +1,49 @@
+.--negative{
+    color: red;
+}
+.--positive{
+    color: turquoise;
+}
+
+article{
+    background-color: gainsboro;
+    border-radius: 10px;
+    width: 20.5vw;
+    height: 20vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.main__items, .header__items{
+    column-count: 4;
+}
+
+p, h2{
+    font-size: 3.125rem;
+    font-weight: bolder;
+}
+
+.userName::before{
+    content: url('img/facebooLogo.svg');
+    height: 30px;
+
+}
+
+.--blueTBorder{
+    border-top: turquoise 7px solid;
+}
+.--rainbowBoder{
+    border-top: thistle 7px solid;
+}
+.--redBoder{
+    border-top: red 7px solid;
+}
+img{
+    height: 30px;
+}
+header{
+    background-image: linear-gradient(rgb(223, 215, 215), white);
+}
