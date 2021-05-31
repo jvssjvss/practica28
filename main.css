@@ -9,7 +9,7 @@ header, main{
 }
 
 article{
-    background-color: rgb(230, 225, 225);
+    background-color: rgb(236, 239, 244);
     border-radius: 5px;
     width: 80vw;
     display: grid;
@@ -29,6 +29,10 @@ article{
 p, h2{
     font-size: 3.125rem;
     font-weight: bolder;
+}
+h5{
+    font-weight: bolder;
+    color: grey;
 }
 
 .userName::before{
@@ -66,7 +70,7 @@ img{
     height: 30px;
 }
 header{
-    background-image: linear-gradient(rgb(223, 215, 215), white);
+    background-image: linear-gradient(rgb(236, 239, 244), white);
 }
 h4, .main__title2{
     color: grey;
@@ -95,6 +99,9 @@ h4, .main__title2{
 }
 .turnOn:hover .circle{
     transform: translateX(250%);
+}
+.turnOn:hover{
+    background-color: black;
 }
 .header__subTitle{
     display: flex;
