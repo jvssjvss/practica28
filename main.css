@@ -7,14 +7,17 @@
 
 article{
     background-color: gainsboro;
-    border-radius: 10px;
+    border-radius: 5px;
     width: 20.5vw;
-    height: 20vh;
     display: grid;
-    grid-template-columns: 1fr 1fr;
     justify-items: center;
     align-items: center;
     margin-bottom: 10%;
+
+}
+
+.main__items__element{
+    grid-template-columns: 1fr 1fr;
 }
 
 .main__items, .header__items{
@@ -28,9 +31,24 @@ p, h2{
 
 .userName::before{
     content: url('img/facebooLogo.svg');
-    height: 30px;
+    transform: scaleX(1000%);
 
 }
+.userName2::before{
+    content: url('img/instagramLogo.svg');
+
+}
+
+.userName3::before{
+    content: url('img/twitterLogo.svg');
+    height: 7vh;
+}
+
+.userName4::before{
+    content: url('img/youtubeLogo.svg');
+    height: 7vh;
+}
+
 
 .--blueTBorder{
     border-top: turquoise 7px solid;
@@ -46,4 +64,7 @@ img{
 }
 header{
     background-image: linear-gradient(rgb(223, 215, 215), white);
+}
+h4, .main__title2{
+    color: grey;
 }
