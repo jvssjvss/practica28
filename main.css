@@ -1,20 +1,25 @@
+header, main{
+    padding: 16px;
+}
 .--negative{
     color: red;
 }
 .--positive{
-    color: turquoise;
+    color: rgb(81, 164, 241);
 }
 
 article{
-    background-color: gainsboro;
+    background-color: rgb(230, 225, 225);
     border-radius: 5px;
     width: 20.5vw;
     display: grid;
     justify-items: center;
     align-items: center;
     margin-bottom: 10%;
+    padding: 1rem;
 
 }
+
 
 .main__items__element{
     grid-template-columns: 1fr 1fr;
@@ -31,22 +36,23 @@ p, h2{
 
 .userName::before{
     content: url('img/facebooLogo.svg');
-    transform: scaleX(1000%);
+    
 
 }
 .userName2::before{
-    content: url('img/instagramLogo.svg');
+    content: url('img/twitterLogo.svg');
 
 }
 
 .userName3::before{
-    content: url('img/twitterLogo.svg');
-    height: 7vh;
+    content: url('img/instagramLogo.svg');
+
+    
 }
 
 .userName4::before{
     content: url('img/youtubeLogo.svg');
-    height: 7vh;
+    
 }
 
 
@@ -67,4 +73,37 @@ header{
 }
 h4, .main__title2{
     color: grey;
+}
+
+.circle{
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    background-color: whitesmoke;
+}
+.turnOn{
+    border-radius: 10px;
+    height: 25px;
+    width: 70px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+}
+.header__darkMode{
+    display: flex;
+    align-items: center;
+    color: grey;
+}
+.turnOn:hover .circle{
+    transform: translateX(250%);
+}
+.header__subTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+.main__title2{
+    padding: 3vh;
 }
