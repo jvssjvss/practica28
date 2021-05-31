@@ -110,11 +110,11 @@ h4, .main__title2{
     
 
     .main__items, .header__items{
-        column-count: 3;
+        column-count: 2;
     }
     article{
         
-    width: 23.5vw;}}
+    width: 40.5vw;}}
 
 @media only screen and (min-width: 1000px){
 
