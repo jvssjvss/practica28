@@ -98,6 +98,7 @@ h4, .main__title2{
     color: grey;
 }
 .turnOn:hover .circle{
+    transition: 0.7s;
     transform: translateX(250%);
 }
 .turnOn:hover{
